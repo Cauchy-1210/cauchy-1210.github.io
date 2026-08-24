@@ -24,7 +24,13 @@ The point-target response factorizes into a common physical channel and a mode-d
 
 In simulation (10 GHz carrier, 1 GHz bandwidth, two coherent targets at 15 m), the method resolves the pair from **≈15°** separation in phase, and from **≈19°** across all 360 sampled relative scattering phases. A magnitude-matched conventional baseline — same amplitude envelope, differing *only* in azimuthal phase slope — attains no valid separability limit anywhere in the 3°–40° sweep, which attributes the gain to the mode-domain coding rather than to beamwidth or taper.
 
+![Simulation: conventional versus PS-OAM backprojection](/images/psoam-simulation.png)
+*Same-range two-target imaging under the matched MT-1R geometry; both targets at 15 m, 18° apart. (a) Repeated conventional spherical-wave BP — one merged lobe. (b) PS-OAM equivalent-order BP — two resolved peaks. (c) Azimuth cuts at 15 m, with the 26% dip threshold marked.*
+
 A stepped-frequency VNA measurement at ≈8 m (9.5–10.5 GHz, 801 points) makes the same comparison in hardware: the conventional transmit antenna produces one broad azimuth lobe of ≈34.9° power FWHM, whereas the four PS-OAM radiators produce **two distinct image peaks separated by ≈28.6°**, with an inter-peak dip metric of **η = 0.936**.
+
+![Measured comparison at 8 m](/images/psoam-measurement.png)
+*Measured comparison for the nominal 8-m two-target scene, same range gate, azimuth sector, and dynamic range throughout. (a) Conventional transmit antenna. (b) The four measured PS-OAM orders. (c) Azimuth cuts through the peak-range rows: the conventional response stays one broad lobe, the PS-OAM response is bimodal at −15.4° and +13.2° with η = 0.936. The azimuth axis is model-based and not yet absolutely calibrated.*
 
 ## What it does not claim
 
