@@ -1,14 +1,31 @@
 ---
-title: "Paper Title Number 1"
+title: "Exploring Two-Dimensional Staring Radar Imaging Using Novel OAM Beams without Energy Void"
 collection: publications
-category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2026-globecom-psoam-staring-radar
+excerpt: 'Transmit-side azimuth discrimination for compact staring radar using the equivalent-order diversity of plane-spiral OAM illuminations — angular resolution in a single-receive-channel FMCW architecture, validated in simulation and on a stepped-frequency X-band testbed.'
+date: 2026-12-01
+venue: 'IEEE Global Communications Conference (GLOBECOM) Workshops — Workshop on Communications, Sensing, and Computing for Sustainable IoT Connectivity: Architecture, Implementation, and Applications'
+citation: 'K. Cai, Y. Zhao, E. Shi, D. Lin, and Y. L. Guan, "Exploring Two-Dimensional Staring Radar Imaging Using Novel OAM Beams without Energy Void," in <i>Proc. IEEE GLOBECOM Workshops</i>, 2026. (Under review.)'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+**First author.** Under review.
+
+## The problem
+
+A compact staring radar with a single receive channel cannot separate two targets that occupy the same range–Doppler cell — think two vehicles side by side, or two pedestrians walking abreast. Wideband FMCW processing resolves range and slow time resolves Doppler, but neither separates targets that differ only in azimuth. Azimuth normally comes from spatial sampling across a receive array, and for the physically large X-band radiators involved here, a densely sampled receive array is impractical.
+
+## The approach
+
+Instead of adding receive channels, code the **transmit** side. Four plane-spiral OAM (PS-OAM) radiators, each with a distinct measured azimuthal phase slope, illuminate the scene sequentially; their *equivalent-order diversity* provides an angular sensing manifold that is matched during spherical-wave backprojection.
+
+The point-target response factorizes into a common physical channel and a mode-domain factor, and the angular-discrimination scale follows the span of the equivalent orders. For the measured set *l*<sub>e</sub> = {23, 30, 35, 45} — span *L* = 22 — the characteristic scale is 2π/*L* ≈ 16°.
+
+## Results
+
+In simulation (10 GHz carrier, 1 GHz bandwidth, two coherent targets at 15 m), the method resolves the pair from **≈15°** separation in phase, and from **≈19°** across all 360 sampled relative scattering phases. A magnitude-matched conventional baseline — same amplitude envelope, differing *only* in azimuthal phase slope — attains no valid separability limit anywhere in the 3°–40° sweep, which attributes the gain to the mode-domain coding rather than to beamwidth or taper.
+
+A stepped-frequency VNA measurement at ≈8 m (9.5–10.5 GHz, 801 points) makes the same comparison in hardware: the conventional transmit antenna produces one broad azimuth lobe of ≈34.9° power FWHM, whereas the four PS-OAM radiators produce **two distinct image peaks separated by ≈28.6°**, with an inter-peak dip metric of **η = 0.936**.
+
+## What it does not claim
+
+Equivalent-order diversity creates no aperture-independent angular degrees of freedom — higher phase slopes still require correspondingly larger mode-generating apertures. The benefit is architectural: fixed antennas, no mechanical scanning, and an angular response controlled by transmit mode content rather than by receive-element count.
