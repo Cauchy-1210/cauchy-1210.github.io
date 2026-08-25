@@ -13,12 +13,6 @@ My work is on **radar imaging and RF sensing**. The question I am currently work
 
 Earlier, my undergraduate thesis at the **University of Sussex** (advised by Prof. Zhengguo Sheng) built an end-to-end RFID and IoT traceability system for textile production, replacing a manual paper-based process with closed-loop tracking from production through quality inspection. The system has since attracted commercial interest and is in discussion with an industry partner.
 
-## Where I am heading
-
-I want to work on **perception for embodied systems in industrial automation** — specifically the RF and radar side of it. Robots in real industrial settings operate where optical sensing degrades: dust, smoke, occlusion, poor lighting, and multipath from metal racking. These are exactly the conditions in which radar and RFID sensing are at their strongest, and they are the part of the embodied-intelligence stack where my background in array signal processing and hands-on RF measurement is an asset rather than a detour.
-
-I am applying for PhD positions starting in Fall 2027.
-
 ## Background
 
 - **MSc**, Communications Engineering, Nanyang Technological University, 2025 – 2027 (expected)
