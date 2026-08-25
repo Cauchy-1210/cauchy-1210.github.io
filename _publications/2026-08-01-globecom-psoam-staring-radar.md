@@ -1,6 +1,7 @@
 ---
 title: "Exploring Two-Dimensional Staring Radar Imaging Using Novel OAM Beams without Energy Void"
 collection: publications
+category: conferences
 permalink: /publication/2026-globecom-psoam-staring-radar
 excerpt: 'Transmit-side azimuth discrimination for compact staring radar using the equivalent-order diversity of plane-spiral OAM illuminations — angular resolution in a single-receive-channel FMCW architecture, validated in simulation and on a stepped-frequency X-band testbed.'
 date: 2026-08-01
@@ -32,6 +33,9 @@ A stepped-frequency VNA measurement at ≈8 m (9.5–10.5 GHz, 801 points) makes
 ![Measured comparison at 8 m](/images/psoam-measurement.png)
 *Measured comparison for the nominal 8-m two-target scene, same range gate, azimuth sector, and dynamic range throughout. (a) Conventional transmit antenna. (b) The four measured PS-OAM orders. (c) Azimuth cuts through the peak-range rows: the conventional response stays one broad lobe, the PS-OAM response is bimodal at −15.4° and +13.2° with η = 0.936. The azimuth axis is model-based and not yet absolutely calibrated.*
 
+## What it does not claim
+
+Equivalent-order diversity creates no aperture-independent angular degrees of freedom — higher phase slopes still require correspondingly larger mode-generating apertures. The benefit is architectural: fixed antennas, no mechanical scanning, and an angular response controlled by transmit mode content rather than by receive-element count.
 ## What it does not claim
 
 Equivalent-order diversity creates no aperture-independent angular degrees of freedom — higher phase slopes still require correspondingly larger mode-generating apertures. The benefit is architectural: fixed antennas, no mechanical scanning, and an angular response controlled by transmit mode content rather than by receive-element count.
