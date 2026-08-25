@@ -3,7 +3,7 @@ title: "Exploring Two-Dimensional Staring Radar Imaging Using Novel OAM Beams wi
 collection: publications
 permalink: /publication/2026-globecom-psoam-staring-radar
 excerpt: 'Transmit-side azimuth discrimination for compact staring radar using the equivalent-order diversity of plane-spiral OAM illuminations — angular resolution in a single-receive-channel FMCW architecture, validated in simulation and on a stepped-frequency X-band testbed.'
-date: 2026-8-01
+date: 2026-08-01
 venue: 'IEEE Global Communications Conference (GLOBECOM) Workshops — Workshop on Communications, Sensing, and Computing for Sustainable IoT Connectivity: Architecture, Implementation, and Applications'
 citation: 'K. Cai, Y. Zhao, E. Shi, D. Lin, and Y. L. Guan, "Exploring Two-Dimensional Staring Radar Imaging Using Novel OAM Beams without Energy Void," in <i>Proc. IEEE GLOBECOM Workshops</i>, 2026. (Under review.)'
 ---
